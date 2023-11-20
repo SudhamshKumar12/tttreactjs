@@ -1,0 +1,117 @@
+/* Profile.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial, sans-serif';
+    color: #333;
+    background-color: #f0f0f0; 
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Header Styles */
+.header {
+    padding: 12px;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.header-title {
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: middle;
+    margin: 0;
+    font-family: 'Georgia, serif';
+    margin-top: -5px;
+}
+
+/* Profile Section Styles */
+.cover-photo {
+    background-image: url('https://media.istockphoto.com/id/1322123064/photo/portrait-of-an-adorable-white-cat-in-sunglasses-and-an-shirt-lies-on-a-fabric-hammock.jpg?s=612x612&w=is&k=20&c=gFkR2a8msAThlYXscYqT9BNz9H7bm4vKpM6EH7HRHIc=');
+    height: 240px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid #fff;
+}
+
+/* Profile Details Styles */
+.profile-details {
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: -40px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.bio {
+    margin-bottom: 20px;
+}
+
+.followers-info {
+    margin-bottom: 15px;
+}
+
+.stats {
+    margin-bottom: 20px;
+}
+
+.post-section {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.post-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.post-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #888;
+}
+
+/* Footer Styles */
+.footer {
+    padding: 1px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    width: auto;
+    
+}
